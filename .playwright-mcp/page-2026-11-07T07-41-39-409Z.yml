@@ -1,0 +1,131 @@
+- generic [active] [ref=f3e1]:
+  - dialog [aria-hidden] [ref=f3e2]:
+    - document [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - generic [ref=f3e5]:
+          - heading [level=5] [ref=f3e6]: New message
+          - button [ref=f3e7]: ×
+        - generic [ref=f3e9]:
+          - generic [ref=f3e10]:
+            - text: "Contact Email:"
+            - textbox [ref=f3e11]
+          - generic [ref=f3e12]:
+            - text: "Contact Name:"
+            - textbox [ref=f3e13]
+          - generic [ref=f3e14]:
+            - text: "Message:"
+            - textbox [ref=f3e15]
+        - generic [ref=f3e16]:
+          - button [ref=f3e17]: Close
+          - button [ref=f3e18]: Send message
+  - dialog [aria-hidden] [ref=f3e19]:
+    - document [ref=f3e20]:
+      - generic [ref=f3e21]:
+        - generic [ref=f3e22]:
+          - heading [level=5] [ref=f3e23]: Sign up
+          - button [ref=f3e24]: ×
+        - generic [ref=f3e26]:
+          - generic [ref=f3e27]:
+            - text: "Username:"
+            - textbox [ref=f3e28]
+          - generic [ref=f3e29]:
+            - text: "Password:"
+            - textbox [ref=f3e30]
+        - generic [ref=f3e31]:
+          - button [ref=f3e32]: Close
+          - button [ref=f3e33]: Sign up
+  - dialog [aria-hidden] [ref=f3e34]:
+    - document [ref=f3e35]:
+      - generic [ref=f3e36]:
+        - generic [ref=f3e37]:
+          - heading [level=5] [ref=f3e38]: Place order
+          - button [ref=f3e39]: ×
+        - generic [ref=f3e41]:
+          - text: "Total:"
+          - generic [ref=f3e42]:
+            - text: "Name:"
+            - textbox [ref=f3e43]
+          - generic [ref=f3e44]:
+            - text: "Country:"
+            - textbox [ref=f3e45]
+          - generic [ref=f3e46]:
+            - text: "City:"
+            - textbox [ref=f3e47]
+          - generic [ref=f3e48]:
+            - text: "Credit card:"
+            - textbox [ref=f3e49]
+          - generic [ref=f3e50]:
+            - text: "Month:"
+            - textbox [ref=f3e51]
+          - generic [ref=f3e52]:
+            - text: "Year:"
+            - textbox [ref=f3e53]
+        - generic [ref=f3e54]:
+          - button [ref=f3e55]: Close
+          - button [ref=f3e56]: Purchase
+  - dialog [aria-hidden] [ref=f3e57]:
+    - document [ref=f3e58]:
+      - generic [ref=f3e59]:
+        - generic [ref=f3e60]:
+          - heading [level=5] [ref=f3e61]: Log in
+          - button [ref=f3e62]: ×
+        - generic [ref=f3e64]:
+          - generic [ref=f3e65]:
+            - text: "Username:"
+            - textbox [ref=f3e66]
+          - generic [ref=f3e67]:
+            - text: "Password:"
+            - textbox [ref=f3e68]
+        - generic [ref=f3e69]:
+          - button [ref=f3e70]: Close
+          - button [ref=f3e71]: Log in
+  - dialog [aria-hidden] [ref=f3e72]:
+    - document [ref=f3e73]:
+      - generic [ref=f3e74]:
+        - generic [ref=f3e75]:
+          - heading [level=5] [ref=f3e76]: About us
+          - button [ref=f3e77]: ×
+        - button [ref=f3e82]: Close
+  - navigation [ref=f3e83]:
+    - button "Toggle navigation" [ref=f3e84]
+    - generic [ref=f3e85]:
+      - link "PRODUCT STORE" [ref=f3e86] [cursor=pointer]:
+        - /url: index.html
+      - list [ref=f3e89]:
+        - listitem [ref=f3e90]:
+          - link "Home (current)" [ref=f3e91] [cursor=pointer]:
+            - /url: index.html
+        - listitem [ref=f3e92]:
+          - link "Contact" [ref=f3e93] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f3e94]:
+          - link "About us" [ref=f3e95] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f3e96]:
+          - link "Cart" [ref=f3e97] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f3e98]:
+          - link "Log in" [ref=f3e99] [cursor=pointer]:
+            - /url: "#"
+        - listitem
+        - listitem
+        - listitem [ref=f3e100]:
+          - link "Sign up" [ref=f3e101] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f3e103]:
+    - generic [ref=f3e104]:
+      - heading "Products" [level=2] [ref=f3e105]
+      - table [ref=f3e107]:
+        - rowgroup [ref=f3e108]:
+          - row [ref=f3e109]:
+            - columnheader "Pic" [ref=f3e110]
+            - columnheader "Title" [ref=f3e111]
+            - columnheader "Price" [ref=f3e112]
+            - columnheader "x" [ref=f3e113]
+        - rowgroup
+    - generic [ref=f3e114]:
+      - heading "Total" [level=2] [ref=f3e115]
+      - generic:
+        - generic:
+          - heading [level=3]
+      - button "Place Order" [ref=f3e116]

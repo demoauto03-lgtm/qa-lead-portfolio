@@ -1,0 +1,3 @@
+[    2182ms] [WARNING] VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists. You may want to avoid re-registering plugins! @ https://demoblaze.com/node_modules/video.js/dist/video.min.js:11
+[    2722ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/:0
+[    2722ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/:0

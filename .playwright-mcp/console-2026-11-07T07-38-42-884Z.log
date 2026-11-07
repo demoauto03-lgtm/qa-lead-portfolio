@@ -1,0 +1,15 @@
+[    1598ms] [WARNING] VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists. You may want to avoid re-registering plugins! @ https://demoblaze.com/node_modules/video.js/dist/video.min.js:11
+[    1624ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/:0
+[    1624ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/:0
+[   55600ms] [WARNING] VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists. You may want to avoid re-registering plugins! @ https://demoblaze.com/node_modules/video.js/dist/video.min.js:11
+[   55613ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/prod.html?idp_=10:0
+[   55613ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/prod.html?idp_=10:0
+[   68297ms] [WARNING] VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists. You may want to avoid re-registering plugins! @ https://demoblaze.com/node_modules/video.js/dist/video.min.js:11
+[   68314ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/cart.html:0
+[   68314ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/cart.html:0
+[  176771ms] [WARNING] VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists. You may want to avoid re-registering plugins! @ https://demoblaze.com/node_modules/video.js/dist/video.min.js:11
+[  176785ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/cart.html#:0
+[  176785ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/cart.html#:0
+[  215400ms] [WARNING] VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists. You may want to avoid re-registering plugins! @ https://demoblaze.com/node_modules/video.js/dist/video.min.js:11
+[  215418ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/index.html:0
+[  215418ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/index.html:0

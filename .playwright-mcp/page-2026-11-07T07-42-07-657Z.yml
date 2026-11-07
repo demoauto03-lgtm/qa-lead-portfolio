@@ -1,0 +1,91 @@
+- generic [ref=f3e1]:
+  - dialog [active] [ref=f3e139]:
+    - document [ref=f3e35]:
+      - generic [ref=f3e36]:
+        - generic [ref=f3e37]:
+          - heading "Place order" [level=5] [ref=f3e140]
+          - button "Close" [ref=f3e141] [cursor=pointer]: ×
+        - generic [ref=f3e41]:
+          - generic [ref=f3e142]: "Total:"
+          - generic [ref=f3e42]:
+            - generic [ref=f3e143]: "Name:"
+            - 'textbox "Total: Name:" [ref=f3e144]': Playwright Test
+          - generic [ref=f3e44]:
+            - generic [ref=f3e145]: "Country:"
+            - textbox "Country:" [ref=f3e146]: Testland
+          - generic [ref=f3e46]:
+            - generic [ref=f3e147]: "City:"
+            - textbox "City:" [ref=f3e148]: Test City
+          - generic [ref=f3e48]:
+            - generic [ref=f3e149]: "Credit card:"
+            - textbox "Credit card:" [ref=f3e150]: not-a-real-card
+          - generic [ref=f3e50]:
+            - generic [ref=f3e151]: "Month:"
+            - textbox "Month:" [ref=f3e152]: "01"
+          - generic [ref=f3e52]:
+            - generic [ref=f3e153]: "Year:"
+            - textbox "Year:" [ref=f3e154]: "2030"
+        - generic [ref=f3e54]:
+          - button "Close" [ref=f3e156]
+          - button "Purchase" [ref=f3e157]
+  - text:             
+  - navigation [ref=f3e83]:
+    - generic [ref=f3e85]:
+      - link "PRODUCT STORE" [ref=f3e86] [cursor=pointer]:
+        - /url: index.html
+      - list [ref=f3e89]:
+        - listitem [ref=f3e90]:
+          - link "Home (current)" [ref=f3e91] [cursor=pointer]:
+            - /url: index.html
+            - text: Home
+            - generic [ref=f3e117]: (current)
+        - listitem [ref=f3e92]:
+          - link "Contact" [ref=f3e93] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f3e94]:
+          - link "About us" [ref=f3e95] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f3e96]:
+          - link "Cart" [ref=f3e97] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=f3e98]:
+          - link "Log in" [ref=f3e99] [cursor=pointer]:
+            - /url: "#"
+        - listitem
+        - listitem
+        - listitem [ref=f3e100]:
+          - link "Sign up" [ref=f3e101] [cursor=pointer]:
+            - /url: "#"
+  - generic [ref=f3e103]:
+    - generic [ref=f3e104]:
+      - heading "Products" [level=2] [ref=f3e105]
+      - table [ref=f3e107]:
+        - rowgroup [ref=f3e108]:
+          - row [ref=f3e109]:
+            - columnheader "Pic" [ref=f3e110]
+            - columnheader "Title" [ref=f3e111]
+            - columnheader "Price" [ref=f3e112]
+            - columnheader "x" [ref=f3e113]
+        - rowgroup
+    - generic [ref=f3e114]:
+      - heading "Total" [level=2] [ref=f3e115]
+      - generic:
+        - generic:
+          - heading [level=3]
+      - button "Place Order" [ref=f3e116]
+  - generic [ref=f3e119]:
+    - generic [ref=f3e122]:
+      - heading "About Us" [level=4] [ref=f3e123]
+      - paragraph [ref=f3e124]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
+    - generic [ref=f3e127]:
+      - heading "Get in Touch" [level=4] [ref=f3e128]
+      - paragraph [ref=f3e129]: "Address: 2390 El Camino Real"
+      - paragraph [ref=f3e130]: "Phone: +440 123456"
+      - paragraph [ref=f3e131]: "Email: demo@blazemeter.com"
+    - heading "PRODUCT STORE" [level=4] [ref=f3e135]
+  - contentinfo [ref=f3e137]:
+    - paragraph [ref=f3e138]: Copyright © Product Store
+  - generic [ref=f3e160]:
+    - heading "Thank you for your purchase!" [level=2] [ref=f3e166]
+    - paragraph [ref=f3e167]: "Id: 6542786Amount: 0 USDCard Number: not-a-real-cardName: Playwright TestDate: 7/10/2026"
+    - button "OK" [ref=f3e170]

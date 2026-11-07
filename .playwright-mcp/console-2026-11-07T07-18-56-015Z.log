@@ -1,0 +1,4 @@
+[    1096ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://demoblaze.com/css/fonts/Lato-Regular.woff2 @ https://demoblaze.com/:0
+[    1399ms] [WARNING] VIDEOJS: WARN: A plugin named "reloadSourceOnError" already exists. You may want to avoid re-registering plugins! @ https://demoblaze.com/node_modules/video.js/dist/video.min.js:11
+[    1428ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/:0
+[    1428ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://demoblaze.com/:0

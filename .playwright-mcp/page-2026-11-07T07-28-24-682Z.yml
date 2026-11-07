@@ -1,0 +1,146 @@
+- generic [active] [ref=e1]:
+  - text:             
+  - navigation [ref=e2]:
+    - link "PRODUCT STORE" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Home (current)" [ref=e8] [cursor=pointer]:
+          - /url: index.html
+          - text: Home
+          - generic [ref=e9]: (current)
+      - listitem [ref=e10]:
+        - link "Contact" [ref=e11] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e12]:
+        - link "About us" [ref=e13] [cursor=pointer]:
+          - /url: "#"
+      - listitem [ref=e14]:
+        - link "Cart" [ref=e15] [cursor=pointer]:
+          - /url: cart.html
+      - listitem [ref=e16]:
+        - link "Log in" [ref=e17] [cursor=pointer]:
+          - /url: "#"
+      - listitem
+      - listitem
+      - listitem [ref=e18]:
+        - link "Sign up" [ref=e19] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e21]:
+      - list [ref=e22]:
+        - listitem [ref=e23] [cursor=pointer]
+        - listitem [ref=e24] [cursor=pointer]
+        - listitem [ref=e25] [cursor=pointer]
+      - img "Second slide" [ref=e72]
+      - button "Previous" [ref=e29] [cursor=pointer]
+      - button "Next" [ref=e32] [cursor=pointer]
+  - generic [ref=e36]:
+    - generic [ref=e38]:
+      - link "CATEGORIES" [ref=e39] [cursor=pointer]:
+        - /url: ""
+      - link "Phones" [ref=e40] [cursor=pointer]:
+        - /url: "#"
+      - link "Laptops" [ref=e41] [cursor=pointer]:
+        - /url: "#"
+      - link "Monitors" [ref=e42] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e43]:
+      - generic [ref=e73]:
+        - generic [ref=e75]:
+          - link [ref=e76] [cursor=pointer]:
+            - /url: prod.html?idp_=1
+          - generic [ref=e77]:
+            - heading [level=4] [ref=e78]:
+              - link "Samsung galaxy s6" [ref=e79] [cursor=pointer]:
+                - /url: prod.html?idp_=1
+            - heading "$360" [level=5] [ref=e80]
+            - paragraph [ref=e81]: The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage cannot be expanded.
+        - generic [ref=e83]:
+          - link [ref=e84] [cursor=pointer]:
+            - /url: prod.html?idp_=2
+          - generic [ref=e85]:
+            - heading [level=4] [ref=e86]:
+              - link "Nokia lumia 1520" [ref=e87] [cursor=pointer]:
+                - /url: prod.html?idp_=2
+            - heading "$820" [level=5] [ref=e88]
+            - paragraph [ref=e89]: The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM.
+        - generic [ref=e91]:
+          - link [ref=e92] [cursor=pointer]:
+            - /url: prod.html?idp_=3
+          - generic [ref=e93]:
+            - heading [level=4] [ref=e94]:
+              - link "Nexus 6" [ref=e95] [cursor=pointer]:
+                - /url: prod.html?idp_=3
+            - heading "$650" [level=5] [ref=e96]
+            - paragraph [ref=e97]: The Motorola Google Nexus 6 is powered by 2.7GHz quad-core Qualcomm Snapdragon 805 processor and it comes with 3GB of RAM.
+        - generic [ref=e99]:
+          - link [ref=e100] [cursor=pointer]:
+            - /url: prod.html?idp_=4
+          - generic [ref=e101]:
+            - heading [level=4] [ref=e102]:
+              - link "Samsung galaxy s7" [ref=e103] [cursor=pointer]:
+                - /url: prod.html?idp_=4
+            - heading "$800" [level=5] [ref=e104]
+            - paragraph [ref=e105]: The Samsung Galaxy S7 is powered by 1.6GHz octa-core it comes with 4GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 200GB via a microSD card.
+        - generic [ref=e107]:
+          - link [ref=e108] [cursor=pointer]:
+            - /url: prod.html?idp_=5
+          - generic [ref=e109]:
+            - heading [level=4] [ref=e110]:
+              - link "Iphone 6 32gb" [ref=e111] [cursor=pointer]:
+                - /url: prod.html?idp_=5
+            - heading "$790" [level=5] [ref=e112]
+            - paragraph [ref=e113]: It comes with 1GB of RAM. The phone packs 16GB of internal storage cannot be expanded. As far as the cameras are concerned, the Apple iPhone 6 packs a 8-megapixel primary camera on the rear and a 1.2-megapixel front shooter for selfies.
+        - generic [ref=e115]:
+          - link [ref=e116] [cursor=pointer]:
+            - /url: prod.html?idp_=6
+          - generic [ref=e117]:
+            - heading [level=4] [ref=e118]:
+              - link "Sony xperia z5" [ref=e119] [cursor=pointer]:
+                - /url: prod.html?idp_=6
+            - heading "$320" [level=5] [ref=e120]
+            - paragraph [ref=e121]: Sony Xperia Z5 Dual smartphone was launched in September 2015. The phone comes with a 5.20-inch touchscreen display with a resolution of 1080 pixels by 1920 pixels at a PPI of 424 pixels per inch.
+        - generic [ref=e123]:
+          - link [ref=e124] [cursor=pointer]:
+            - /url: prod.html?idp_=7
+          - generic [ref=e125]:
+            - heading [level=4] [ref=e126]:
+              - link "HTC One M9" [ref=e127] [cursor=pointer]:
+                - /url: prod.html?idp_=7
+            - heading "$700" [level=5] [ref=e128]
+            - paragraph [ref=e129]: The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 128GB via a microSD card.
+        - generic [ref=e131]:
+          - link [ref=e132] [cursor=pointer]:
+            - /url: prod.html?idp_=8
+          - generic [ref=e133]:
+            - heading [level=4] [ref=e134]:
+              - link "Sony vaio i5" [ref=e135] [cursor=pointer]:
+                - /url: prod.html?idp_=8
+            - heading "$790" [level=5] [ref=e136]
+            - paragraph [ref=e137]: Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight.
+        - generic [ref=e139]:
+          - link [ref=e140] [cursor=pointer]:
+            - /url: prod.html?idp_=9
+          - generic [ref=e141]:
+            - heading [level=4] [ref=e142]:
+              - link "Sony vaio i7" [ref=e143] [cursor=pointer]:
+                - /url: prod.html?idp_=9
+            - heading "$790" [level=5] [ref=e144]
+            - paragraph [ref=e145]: REVIEW Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight, higher-resolution display, more storage space, and a Blu-ray drive.
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - button "Previous" [ref=e47]
+        - listitem [ref=e48]:
+          - button "Next" [ref=e49] [cursor=pointer]
+  - generic [ref=e51]:
+    - generic [ref=e54]:
+      - heading "About Us" [level=4] [ref=e55]
+      - paragraph [ref=e56]: We believe performance needs to be validated at every stage of the software development cycle and our open source compatible, massively scalable platform makes that a reality.
+    - generic [ref=e59]:
+      - heading "Get in Touch" [level=4] [ref=e60]
+      - paragraph [ref=e61]: "Address: 2390 El Camino Real"
+      - paragraph [ref=e62]: "Phone: +440 123456"
+      - paragraph [ref=e63]: "Email: demo@blazemeter.com"
+    - heading "PRODUCT STORE" [level=4] [ref=e67]
+  - contentinfo [ref=e69]:
+    - paragraph [ref=e70]: Copyright © Product Store
