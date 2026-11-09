@@ -42,10 +42,10 @@ Validate the guest product-browsing flow on Demoblaze: filter the catalog by Pho
   1. Open the Demoblaze home page in a fresh guest browser context.
     - expect: The page title matches STORE.
   2. Select Phones from the category list.
-    - expect: Phone products appear in the catalog.
+    - expect: Phone products appear in the catalog, including Samsung galaxy s6 at 360.
   3. Open Samsung galaxy s6 from the catalog.
     - expect: The product detail page shows Samsung galaxy s6.
-    - expect: The displayed price is $360 *includes tax.
+    - expect: The product detail price is $360 *includes tax and matches the Samsung galaxy s6 price of 360 shown in the category list.
     - expect: A product description and an Add to cart link are visible.
 
 #### 2.2. should add a product and display it in the cart
@@ -63,4 +63,70 @@ Validate the guest product-browsing flow on Demoblaze: filter the catalog by Pho
   4. Select Cart in the navigation.
     - expect: The cart lists Samsung galaxy s6 with price 360.
     - expect: The cart total is 360.
-    - expect: The Place Order control may be visible; do not activate it.
+    - expect: The Place Order control is visible; do not activate it.
+
+#### 2.3. should add the same product twice and remove one cart entry
+
+**File:** `tests/demoblaze-cart.spec.js`
+
+**Steps:**
+  1. Open the Demoblaze home page in a fresh guest browser context, select Phones, and open Samsung galaxy s6.
+    - expect: The product detail page shows Samsung galaxy s6 at $360 *includes tax.
+  2. Select Add to cart twice, accepting the “Product added” alert after each addition.
+    - expect: Each addition displays the “Product added” alert.
+  3. Open Cart.
+    - expect: Two Samsung galaxy s6 entries are listed, each priced 360.
+    - expect: The cart total is 720.
+    - expect: The Place Order control is visible; do not activate it.
+  4. Delete one Samsung galaxy s6 entry.
+    - expect: One Samsung galaxy s6 entry remains at price 360.
+    - expect: The cart total updates to 360.
+    - expect: The Place Order control remains visible; do not activate it.
+
+#### 2.4. should remove the only product from the cart
+
+**File:** `tests/demoblaze-cart.spec.js`
+
+**Steps:**
+  1. Open the Demoblaze home page in a fresh guest browser context, select Phones, and open Samsung galaxy s6.
+    - expect: The product detail page shows Samsung galaxy s6 at $360 *includes tax.
+  2. Select Add to cart and accept the “Product added” alert, then open Cart.
+    - expect: Samsung galaxy s6 is listed at price 360.
+    - expect: The cart total is 360.
+    - expect: The Place Order control is visible; do not activate it.
+  3. Delete Samsung galaxy s6 from the cart.
+    - expect: The Samsung galaxy s6 row and its price are no longer displayed.
+    - expect: The cart total is empty or zero.
+    - expect: The Place Order control remains visible; do not activate it.
+
+#### 2.5. should add two different products from the same category
+
+**File:** `tests/demoblaze-cart.spec.js`
+
+**Steps:**
+  1. Open the Demoblaze home page in a fresh guest browser context and select Phones.
+    - expect: Phone products include Samsung galaxy s6 at 360 and Nokia lumia 1520 at 820.
+  2. Open Samsung galaxy s6, select Add to cart, and accept the “Product added” alert.
+    - expect: The product is added to the cart.
+  3. Return to the home page, select Phones, open Nokia lumia 1520, select Add to cart, and accept the “Product added” alert.
+    - expect: Nokia lumia 1520 is added to the cart.
+  4. Open Cart.
+    - expect: Samsung galaxy s6 is listed at 360 and Nokia lumia 1520 at 820.
+    - expect: The cart total is 1180.
+    - expect: The Place Order control is visible; do not activate it.
+
+#### 2.6. should add products from different categories
+
+**File:** `tests/demoblaze-cart.spec.js`
+
+**Steps:**
+  1. Open the Demoblaze home page in a fresh guest browser context and select Phones.
+    - expect: Samsung galaxy s6 is listed at 360.
+  2. Open Samsung galaxy s6, select Add to cart, and accept the “Product added” alert.
+    - expect: The product is added to the cart.
+  3. Return to the home page, select Laptops, open Sony vaio i5, select Add to cart, and accept the “Product added” alert.
+    - expect: Sony vaio i5 is listed at 790 in the Laptops category and is added to the cart.
+  4. Open Cart.
+    - expect: Samsung galaxy s6 is listed at 360 and Sony vaio i5 at 790.
+    - expect: The cart total is 1150.
+    - expect: The Place Order control is visible; do not activate it.
